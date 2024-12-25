@@ -39,7 +39,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=9227400229d3792e31ce2f2feebeb9d4d72363c3 \
-            -Dsonar.organization=khalilAnkri \
+            -Dsonar.projectKey=khalilAnkri_Tp-Jenkins \
+            -Dsonar.organization=khalilankri \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=$SONAR_TOKEN
